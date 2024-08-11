@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Lemonada');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #add8e6;  
+}
+
+.container {
+    display: block;
+    width: 400px;
+    margin: auto;
+    padding: 20px;  
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Lemonada', cursive !important;
+    text-transform: uppercase;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+#completed-tasks span {
+    text-decoration: line-through;
+    font-size: 1.2em !important;
+}
+
+.mdl-textfield__input {
+	height: 35px;
+    background-color: #ffc0cb;  
+    border: 2px solid #007bff;  
+    border-radius: 4px;
+    padding: 10px;
+	margin: 10px;
+    color: #333;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);  
+    transition: background-color 0.3s, border-color 0.3s;
+    width: 100%;  
+    box-sizing: border-box;  
+}
+
+.mdl-textfield__input:focus {
+    background-color: #ffb6c1;  
+    outline: none;
+}
